@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/messName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Name"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/messCont"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="My Name is Haln"
+        android:textColor="#e2393333" />
+    <TextView
+        android:id="@+id/messTime"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="2016-12-12"
+        android:textAlignment="textEnd"
+        android:textColor="#e2837979" />
+
+</LinearLayout>
